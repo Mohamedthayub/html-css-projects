@@ -1,12 +1,281 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-
-body{
-  font-family: "Red Hat Text", sans-serif;
-
+body {
+  font-family: "poppins", sans-serif;
+  background-color: hsl(13, 31%, 94%);
 }
+body .container {
+  display: flex;
+  justify-content: space-around;
+}
+body .container .first-container h1 {
+  margin-top: 10px;
+}
+body .container .first-container .food-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+body .container .first-container .food-container .food-image1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image1:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container .food-image2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image2:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container .food-image3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image3:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container .food-image4 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image4:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container .food-image5 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image5:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container .food-image6 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image6:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container .food-image7 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image7:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container .food-image8 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image8:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container .food-image9 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+body .container .first-container .food-container .food-image9:hover {
+  border: 2.5px solid hsl(14, 86%, 42%);
+}
+body .container .first-container .food-container #btn {
+  position: absolute;
+  top: 250px;
+  left: 180px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container #btn2 {
+  position: absolute;
+  top: 250px;
+  left: 415px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn2 .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container #btn3 {
+  position: absolute;
+  top: 245px;
+  left: 640px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn3 .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container #btn4 {
+  position: absolute;
+  top: 555px;
+  left: 180px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn4 .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container #btn5 {
+  position: absolute;
+  top: 555px;
+  left: 410px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn5 .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container #btn6 {
+  position: absolute;
+  top: 555px;
+  left: 640px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn6 .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container #btn7 {
+  position: absolute;
+  top: 865px;
+  left: 180px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn7 .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container #btn8 {
+  position: absolute;
+  top: 865px;
+  left: 415px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn8 .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container #btn9 {
+  position: absolute;
+  top: 865px;
+  left: 640px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+  width: 120px;
+  border: 1px solid hsl(7, 20%, 60%);
+}
+body .container .first-container .food-container #btn9 .btn {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+body .container .first-container .food-container p {
+  font-size: 12.5px;
+  margin-top: 20px;
+  color: hsl(12, 20%, 44%);
+}
+body .container .first-container .food-container h4 {
+  margin-top: 5px;
+  font-size: 13px;
+}
+body .container .first-container .food-container .price {
+  margin-top: 5px;
+  color: hsl(14, 86%, 42%);
+}
+body .container .second-container .order-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 65px;
+}
+body .container .second-container .order-container h2 {
+  color: hsl(14, 86%, 42%);
+}
+body .container .second-container .order-container .cake-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .second-container .order-container .cake-logo img {
+  width: 150px;
+}
+body .container .second-container .order-container p {
+  color: hsl(12, 20%, 44%);
+}/*# sourceMappingURL=style.css.map */
