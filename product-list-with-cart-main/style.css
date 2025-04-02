@@ -252,11 +252,9 @@ body .container .first-container .food-container p {
   color: hsl(12, 20%, 44%);
 }
 body .container .first-container .food-container h4 {
-  margin-top: 5px;
   font-size: 13px;
 }
 body .container .first-container .food-container .price {
-  margin-top: 5px;
   color: hsl(14, 86%, 42%);
 }
 body .container .second-container .order-container {
