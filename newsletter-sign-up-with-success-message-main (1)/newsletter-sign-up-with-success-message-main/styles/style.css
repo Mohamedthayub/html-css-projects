@@ -111,13 +111,20 @@ body{
     color: red;
 }
 
-
-@media screen and (max-width:450px){
+@media screen and (max-width:420px){
     .main{
+        padding: 15px;
+        width: 410px;
+        height: 1200px;
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
+        border-radius: 25px;
     }
-    
- 
+    .first_container{
+        padding: 10px;
+    }
+    .second_container img{
+        width: 400px;
+        margin-left: 15px;
+    }
 }
-
