@@ -28,6 +28,9 @@ project-folder/
 1. Clone or download this repository.
 2. Open `index.html` in your browser.
 
+
+## 🔗 Live Demo  
+[blog-preview-card-main](https://blog-preview-card-thayub.netlify.app/)
 ## Screenshot
 
 Component preview:
