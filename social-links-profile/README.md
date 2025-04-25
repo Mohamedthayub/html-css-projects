@@ -25,7 +25,7 @@ project-folder/
 
 
 ## 🔗 Live Demo  
-[Social-links-profile](news-letter-links.netlify.app)
+[Social-links-profile](https://news-letter-links.netlify.app/)
 
 ## How to Run
 
