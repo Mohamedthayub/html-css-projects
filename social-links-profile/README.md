@@ -23,6 +23,10 @@ project-folder/
 │   └── profile-picture.png
 ```
 
+
+## 🔗 Live Demo  
+[Social-links-profile](news-letter-links.netlify.app)
+
 ## How to Run
 
 1. Clone or download this repository.
