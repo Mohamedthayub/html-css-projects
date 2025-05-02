@@ -35,4 +35,4 @@ project-folder/
 
 Component preview:
 
-![Blog Card Component](./assets/images/blogpreviwcard.png)
+![Blog Card Component](./images/blogpreviwcard.png)
