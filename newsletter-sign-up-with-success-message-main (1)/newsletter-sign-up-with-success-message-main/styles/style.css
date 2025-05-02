@@ -106,10 +106,10 @@ body{
     height: 620px;
     
 }
-.error #error{
-    display: none;
+#error{
     color: red;
 }
+
 
 @media screen and (max-width:420px){
     .main{
