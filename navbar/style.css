@@ -14,7 +14,7 @@ h2{
 header{
     background-color:MediumSeaGreen;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     padding: 10px;

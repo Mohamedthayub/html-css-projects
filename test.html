@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .one{
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .two{
+            background-color:blue;
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .three{
+            background-color:violet;
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        @media(width <= 500px){
+            .container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .one{
+                    width: 100%;
+                }
+                .two{
+                    width: 100%;
+                }
+                .three{
+                    width: 100%;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</body>
+</html>
