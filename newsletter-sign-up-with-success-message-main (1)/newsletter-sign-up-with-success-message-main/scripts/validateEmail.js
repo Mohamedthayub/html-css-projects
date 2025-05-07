@@ -2,7 +2,7 @@ const user_btn = document.getElementById("submit_btn");
 const user_error = document.getElementById("error");
 const user_email_input = document.getElementById("user_email"); // Store the input element
 
-export function validateEmail(userinput) {
+function validateEmail(userinput) {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     
     if (userinput === "") {
@@ -23,7 +23,6 @@ export function validateEmail(userinput) {
 user_btn.addEventListener("click", (e) => {
     const userinput = user_email_input.value.trim();
     const isValid = validateEmail(userinput);
-    
     if (!isValid) {
         e.preventDefault();
     } else {
