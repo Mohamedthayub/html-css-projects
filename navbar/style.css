@@ -27,7 +27,9 @@ header{
     nav{
         position: relative;
         top: 100px;
+        background-color: mediumseagreen;
         right: 200px;
+        width: 500px;
 
         p{
             margin-top: 10px;
@@ -43,6 +45,9 @@ header{
     header{
         display: flex;
         justify-content: space-around;
+        background-color: mediumseagreen;
+        padding: 10px;
+        border-radius: 20px;
         margin: 20px;
         nav{
             display: flex;
