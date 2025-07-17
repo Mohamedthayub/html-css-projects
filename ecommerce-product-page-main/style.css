@@ -18,8 +18,9 @@ nav{
 }
 .logo{
     width: 150px;
-    height: 30px;
+    height: 25px;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .nav-items{
@@ -29,7 +30,7 @@ p{
     margin-left: 20px;
     cursor: pointer;
 }
-.image-container{
+.profile-image-container{
     margin-top: 10px;
     display: flex;
 }
@@ -50,4 +51,68 @@ p{
         border: 2px solid orange;
         border-radius: 50%;
     }
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+.company-name{
+    letter-spacing: 1px;
+    font-style: bold;
+}
+
+.show-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+.small-image-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+.small-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-left: 15px;
+    /* margin-top: 10px; */
+    margin: 5px;
+
+    &:hover{
+        border: 2px solid orange;
+        /* border-radius: 50%; */
+    }
+}
+h1{
+    margin-left: 20px;
+}
+
+.price-container{
+    display: flex;
+    margin-left: 20px;
+}
+.discount-percentage{
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 10px;
+}
+h3{
+    margin-left:20px;
+}
+.about-product{
+    width: 400px;
 }
