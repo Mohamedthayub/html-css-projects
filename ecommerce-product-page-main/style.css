@@ -6,113 +6,110 @@ body{
 }
 
 
+.nav-items{
+    display: none;
+}
+
 header{
     display: flex;
-    justify-content:space-around;
-    padding: 20px;
-}
-
-nav{
-    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 5px;
 
 }
-.logo{
-    width: 150px;
-    height: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
 
-.nav-items{
-    display: flex;
-}
-p{
-    margin-left: 20px;
-    cursor: pointer;
-}
-.profile-image-container{
-    margin-top: 10px;
-    display: flex;
-}
 .cart-logo{
-    width: 23px;
-    height: 23px;
-    cursor: pointer;
-    margin-top: 11px;
-
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
 }
 .profile-logo{
-    width: 32px;
-    height: 32px;
-    margin-left: 10px;
-    margin-top: 5px;
-    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+
     &:hover{
-        border: 2px solid orange;
-        border-radius: 50%;
+        border:2px solid orange;
+        border-radius: 100%;
     }
 }
+.humberger-icon{
+    margin-right: 15px;
+}
 
-main{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 100px;
-    margin-top: 80px;
-}
-.image-container{
-    display: flex;
-    flex-direction: column;
-}
-.company-name{
-    letter-spacing: 1px;
-    font-style: bold;
-}
 
 .show-image{
-    width: 350px;
-    height: 350px;
-    border-radius: 15px;
+    width: 360px;
+    height: 300px;
+    border-radius: 10px;
 }
 .small-image-container{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 15px;
-
+    display: none;
 }
-.small-image{
-    width: 80px;
-    height: 80px;
-    border-radius: 8px;
-    margin-left: 15px;
-    /* margin-top: 10px; */
-    margin: 5px;
-
-    &:hover{
-        border: 2px solid orange;
-        /* border-radius: 50%; */
-    }
+.company-name{
+    color: hsl(219, 9%, 45%);
 }
-h1{
-    margin-left: 20px;
+.about-product{
+    width: 370px;
+    word-spacing: 4px;
+    color: hsl(219, 9%, 45%);
 }
 
 .price-container{
     display: flex;
-    margin-left: 20px;
+    justify-content: space-between;
 }
-.discount-percentage{
-    margin-top: 22px;
-    background-color: black;
-    color: white;
-    padding: 2px;
-    border-radius: 5px;
-    height: 20px;
-    margin-left: 10px;
+.first-price-container{
+    display: flex;
 }
 h3{
-    margin-left:20px;
+    margin-right: 15px;
+    text-decoration: line-through;
+    color: hsl(219, 9%, 45%);
 }
-.about-product{
-    width: 400px;
+.discount-percentage{
+    background-color: black;
+    color: white;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    height: 23px;
+    margin-left:10px;
+}
+
+.add-to-cart-btn{
+    background-color: hsl(26, 100%, 55%);
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    background-color:  hsl(25, 100%, 94%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 360px;
+}
+.cart{
+    display: flex;
+}
+.cart-img{
+    width: 20px;
+    height:20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.plus{
+    width: 10px;
+    height: 5px;
+    margin-top: 28px;
+}
+.minus{
+    width: 12px;
+    height: 12px;
+    margin-top: 25px;
 }
