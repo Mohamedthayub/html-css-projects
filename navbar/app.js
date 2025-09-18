@@ -1,5 +1,5 @@
 const button = document.querySelector(".humberger-btn");
-const navbar = document.querySelector("#nav");
+const navbar = document.querySelector("#navbar");
 button.addEventListener("click",() => {
-    navbar.classList.toggle("display");
+    navbar.classList.toggle("show");
 })
